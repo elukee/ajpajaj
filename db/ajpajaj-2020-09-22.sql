@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Värd: localhost (MySQL 5.7.18)
+# Värd: localhost (MySQL 5.7.26)
 # Databas: ajpajaj
-# Genereringstid: 2020-09-21 14:51:43 +0000
+# Genereringstid: 2020-09-22 06:45:49 +0000
 # ************************************************************
 
 
