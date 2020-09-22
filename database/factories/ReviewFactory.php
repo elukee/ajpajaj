@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Factories\Model;
+namespace Database\Factories;
 
 use App\Models\Review;
 use App\Models\Product;
