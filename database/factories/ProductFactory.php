@@ -2,18 +2,18 @@
 
 namespace Database\Factories\Model;
 
-use App\Models\Model\Review;
+use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
-class ReviewFactory extends Factory
+class ProductFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Review::class;
+    protected $model = Product::class;
 
     /**
      * Define the model's default state.
@@ -23,7 +23,11 @@ class ReviewFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->word,
+            'detail' => $this->faker->paragraph,
+            'price' => $this->faker->numberBetween(100,1000),
+            'stock' => $this->faker->randomDigit,
+            'dicount' => $this->faker->numberBetween(2,30)
         ];
     }
 }
